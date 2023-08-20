@@ -1,0 +1,199 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kodchasan', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('/image/Pure-Dark-Blue-Ocean-Gradation-Blur-Background-iphone-8.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.First {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Me {
+    width: 700px;
+}
+
+.Topic {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 50px;
+    margin: 0;
+}
+
+.Topicmain {
+    background: white;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 25px;
+    font-family: 'Kodchasan', sans-serif;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    padding: 5px;
+}
+
+.Personal {
+    display: flex;
+    width: 100vw;
+    max-height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.box {
+    margin: 50px;
+}
+
+.Topic1 ,.Topic2 ,.Topic3 {
+    font-size: 50px;
+    margin: 0px;
+    text-align: center;
+}
+
+.allpersonal {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.data {
+    display: flex;
+    font-size: 30px;
+    align-content: center;
+    flex-direction: column;
+}
+
+.education {
+    display: flex;
+    font-size: 30px;
+    align-content: center;
+    flex-direction: column;
+}
+
+.boxwan {
+    display: flex;
+    align-items: center;
+}
+
+.wanname {
+    margin-left: 20px;
+}
+
+.wansawang {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.Project {
+    display: flex;
+    max-width: 100vw;
+    max-height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.project {
+    width: 600px;
+    height: 300px;
+}
+
+.allpro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.boxpro {
+    width: 600px;
+    padding: 20px;
+    background-color: rgb(228, 168, 91);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.pah {
+    font-size: larger;
+}
+
+.Contract {
+    display: flex;
+    max-width: 100vw;
+    max-height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.alllogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.linklogo {
+    text-decoration: none;
+
+}
+
+.boxlogo {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+    
+}
+
+.logo {
+    width: 80px;
+    margin: 20px;
+}
+
+.logo :hover {
+    box-shadow: none;
+}
+
+.logoname {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.face {
+    color: rgb(0, 102, 255);
+}
+
+.git {
+    color: black;
+}
+
+.ig {
+    color: #e4426a;
+}
+
+.linklogo >   :hover {
+    box-shadow: 5px 5px rgb(136, 136, 151);
+}
